@@ -1,0 +1,21 @@
+[general]
+name=Thiessen Irrigation Weighting
+qgisMinimumVersion=3.16
+description=Computes the area-weighted average of point station data (rainfall, irrigation water requirement, discharge, etc.) using the Thiessen (Voronoi) polygon method.
+version=0.1.0
+author=Selcuk Albut
+email=salbut@nku.edu.tr
+
+about=This plugin generates Thiessen polygons (a Voronoi diagram) from point data such as meteorological or irrigation stations, optionally clips them to an irrigation area boundary, and computes the area-weighted average value (e.g. area-weighted average rainfall or irrigation water requirement) based on each polygon's area. AREA_HA, AREA_PCT and WEIGHT_CONTRIB fields are added to the result layer.
+
+tracker=https://github.com/selcukalbut/qgis-thiessen-irrigation-weighting/issues
+repository=https://github.com/selcukalbut/qgis-thiessen-irrigation-weighting
+homepage=https://github.com/selcukalbut/qgis-thiessen-irrigation-weighting
+category=Vector
+icon=icon.png
+tags=thiessen,voronoi,irrigation,hydrology,areal average,weighted average,rainfall,water requirement
+
+experimental=True
+deprecated=False
+server=False
+hasProcessingProvider=no
